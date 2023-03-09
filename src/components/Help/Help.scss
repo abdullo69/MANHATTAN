@@ -1,0 +1,61 @@
+.help {
+    width: 50%;
+    height: 100vh;
+    padding-top: 200px;
+    margin-left: 150px;
+    line-height: 40px;
+
+    h3 {
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: 16px;
+
+        &:hover {
+            color: gray;
+        }
+    }
+}
+
+@media(max-width:820px) {
+    .help {
+        width: 50%;
+        height: 60vh;
+        padding-top: 200px;
+        margin-left: 150px;
+        line-height: 40px;
+
+        h3 {
+            text-decoration: underline;
+            cursor: pointer;
+            font-size: 16px;
+
+            &:hover {
+                color: gray;
+            }
+        }
+    }
+}
+
+@media(max-width:414px) {
+    .help {
+        width: 50%;
+        height: 60vh;
+        padding-top: 100px;
+        margin-left: 110px;
+        line-height: 40px;
+
+        h1 {
+            font-size: 15px;
+        }
+
+        h3 {
+            text-decoration: underline;
+            cursor: pointer;
+            font-size: 10px;
+
+            &:hover {
+                color: gray;
+            }
+        }
+    }
+}

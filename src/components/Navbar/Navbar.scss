@@ -1,0 +1,400 @@
+.navbar {
+    width: 100%;
+    height: 100px;
+    z-index: 999;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+
+    .navbar_1 {
+        display: flex;
+        align-items: center;
+        width: 30%;
+        height: 25px;
+        margin-left: 955px;
+
+        a {
+            margin-left: 20px;
+            color: black;
+            text-decoration: none;
+            color: gray;
+        }
+    }
+
+    .navbar2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 65px;
+
+        .img {
+            width: 200px;
+            height: 100%;
+            background-image: url(../../images/logo.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-left: 30px;
+            cursor: pointer;
+
+            img {
+                width: 100px;
+            }
+        }
+
+        ul {
+            height: 100%;
+            display: flex;
+            list-style-type: none;
+            margin-left: 100px;
+        }
+
+        li {
+            height: 120%;
+            padding-left: 20px;
+            cursor: pointer;
+            margin: auto;
+            padding-top: 30px;
+        }
+
+        .men_card {
+            display: flex;
+            position: absolute;
+            width: 80%;
+            height: 25vh;
+            margin-left: -300px;
+            margin-top: 27px;
+            display: none;
+            background-color: #fff;
+
+            .new {
+                padding-left: 30px;
+                padding-top: 10px;
+                line-height: 30px;
+                width: 25%;
+                height: 100%;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+
+                p {
+                    font-size: 15px;
+                    color: gray;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .men:hover .men_card {
+            display: block;
+            display: flex;
+        }
+
+
+        .women_cards {
+            display: flex;
+            position: absolute;
+            width: 80%;
+            height: 25vh;
+            margin-left: -355px;
+            margin-top: 27px;
+            display: none;
+            background-color: #fff;
+
+            .women_card {
+                padding-left: 30px;
+                padding-top: 10px;
+                line-height: 30px;
+                width: 25%;
+                height: 100%;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+
+                p {
+                    font-size: 15px;
+                    color: gray;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+
+        .women:hover .women_cards {
+            display: block;
+            display: flex;
+        }
+
+
+
+        .kids_cards {
+            display: flex;
+            position: absolute;
+            width: 80%;
+            height: 25vh;
+            margin-left: -440px;
+            margin-top: 27px;
+            display: none;
+            background-color: #fff;
+
+            .kids_card {
+                padding-left: 30px;
+                padding-top: 10px;
+                line-height: 30px;
+                width: 25%;
+                height: 100%;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+
+                p {
+                    font-size: 15px;
+                    color: gray;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+
+        .kids:hover .kids_cards {
+            display: block;
+            display: flex;
+        }
+
+
+        .sale_cards {
+            display: flex;
+            position: absolute;
+            width: 80%;
+            height: 25vh;
+            margin-left: -498px;
+            margin-top: 27px;
+            display: none;
+            background-color: #fff;
+
+            .sale_card {
+                padding-left: 30px;
+                padding-top: 10px;
+                line-height: 30px;
+                width: 25%;
+                height: 100%;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+
+                p {
+                    font-size: 15px;
+                    color: gray;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+
+        .sale:hover .sale_cards {
+            display: block;
+            display: flex;
+        }
+
+
+        input {
+            width: 180px;
+            height: 30px;
+            padding-left: 20px;
+        }
+
+        .search {
+            margin-left: -120px;
+        }
+
+        .icons {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 120px;
+            height: 100%;
+            font-size: 22px;
+            margin-left: 100px;
+            cursor: pointer;
+
+            .sign {
+                margin-left: 300px;
+            }
+        }
+
+        .bars {
+            font-size: 30px;
+            display: none;
+        }
+
+        .over_text {
+            font-size: 18px;
+        }
+
+
+    }
+
+
+
+}
+
+@media(max-width:912px) {
+    .navbar {
+        width: 100%;
+        height: 90px;
+
+        .navbar_1 {
+            display: flex;
+            align-items: center;
+            width: 30%;
+            height: 25px;
+            margin-left: 955px;
+            display: none;
+
+            a {
+                margin-left: 20px;
+                color: black;
+                text-decoration: none;
+                color: gray;
+            }
+        }
+
+        .navbar2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            height: 65px;
+
+            .img {
+                width: 200px;
+                height: 100%;
+                background-image: url(../../images/logo.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin-left: 50px;
+            }
+
+            ul {
+                display: flex;
+                list-style-type: none;
+                display: none;
+            }
+
+            li {
+                padding-left: 20px;
+                cursor: pointer;
+            }
+
+            input {
+                width: 180px;
+                height: 30px;
+                padding-left: 20px;
+                display: none;
+            }
+
+            .search {
+                margin-left: -120px;
+                display: none;
+            }
+
+            .icons {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                width: 100px;
+                height: 100%;
+                font-size: 22px;
+                margin-left: -100px;
+            }
+
+            .bars {
+                font-size: 40px;
+                margin-left: 30px;
+                display: block;
+            }
+        }
+
+
+    }
+}
+
+@media(max-width:414px) {
+    .sign {
+        margin-left: -80px;
+    }
+
+    .over_text {
+        margin-left: 35px;
+    }
+
+    .user {
+        margin-left: -20px;
+    }
+
+    .img {
+        width: 100px;
+    }
+}
+
+@media(max-width:393px) {
+    .navbar {
+        width: 100%;
+    }
+
+    .sign {
+        margin-left: -80px;
+    }
+
+    .over_text {
+        display: none;
+        margin-left: 35px;
+    }
+
+    .user {
+        margin-left: -50px;
+        margin-top: 30px;
+    }
+
+    .img {
+        width: 100px;
+        margin-left: -100px;
+    }
+
+    .bars {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:375px) {
+    .navbar {
+        width: 100%;
+    }
+
+    .sign {
+        margin-left: -80px;
+    }
+
+    .over_text {
+        display: none;
+        margin-left: 35px;
+    }
+
+    .user {
+        margin-left: -50px;
+        margin-top: 30px;
+    }
+
+    .img {
+        width: 100px;
+        margin-left: -100px;
+    }
+
+    .bars {
+        font-size: 20px;
+    }
+}

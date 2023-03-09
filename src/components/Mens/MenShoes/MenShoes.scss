@@ -1,0 +1,68 @@
+.Menshoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    width: 100%;
+    height: 40vh;
+
+    .Menshoes_card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 100%;
+        cursor: pointer;
+        background-color: #ECEFF1;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+        img {
+            width: 150px;
+        }
+
+        h2 {
+            text-decoration: underline;
+
+            &:hover {
+                background-color: black;
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+
+@media(max-width:"920px") {
+
+
+    .Menshoes {
+        margin-top: 400px;
+
+        .Menshoes_card {
+            margin-top: 50px;
+        }
+    }
+}
+
+@media(max-width:"414px") {
+
+
+    .shoes {
+        margin-top: 1280px;
+        height: 30vh;
+
+    }
+}
+
+@media(max-width:"375px") {
+
+
+    .shoes {
+        margin-top: 1000px;
+        height: 30vh;
+
+    }
+}

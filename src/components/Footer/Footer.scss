@@ -1,0 +1,456 @@
+.Afooter {
+    width: 100%;
+    height: 55vh;
+    margin-top: 180px;
+
+    .Afooter_navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 120px;
+        background-color: #EDE734;
+
+        h1 {
+            margin-left: -200px;
+        }
+
+        button {
+            width: 250px;
+            height: 50px;
+            margin-left: 100px;
+            cursor: pointer;
+            background-color: black;
+            color: #fff;
+            box-shadow: gray 5px 5px;
+            font-size: 16px;
+
+            &:hover {
+                color: gray;
+            }
+        }
+
+
+    }
+
+    .Afooter_carts {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 30%;
+
+        .Afooter_cart {
+            width: 200px;
+            height: 100%;
+            line-height: 30px;
+            margin-top: 30px;
+
+            p {
+                font-size: 14px;
+
+                &:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.Afooter2 {
+    width: 100%;
+    height: 100px;
+    background-color: #363738;
+
+    .Afooter2_data {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 35px;
+        padding-top: 20px;
+        cursor: pointer;
+        color: #BFC6B4;
+    }
+
+    h6 {
+        padding-left: 50px;
+        padding-top: 40px;
+        font-size: 10px;
+    }
+}
+
+@media(max-width:820px) {
+
+    .Afooter {
+        width: 100%;
+        height: 35vh;
+        margin-top: 200px;
+
+        .Afooter_navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 120px;
+            background-color: #EDE734;
+            display: none;
+
+            h1 {
+                margin-left: -200px;
+            }
+
+            button {
+                width: 250px;
+                height: 50px;
+                margin-left: 100px;
+                cursor: pointer;
+                background-color: black;
+                color: #fff;
+                box-shadow: gray 5px 5px;
+                font-size: 16px;
+
+                &:hover {
+                    color: gray;
+                }
+            }
+
+
+        }
+
+        .Afooter_carts {
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            height: 30%;
+
+            .Afooter_cart {
+                width: 200px;
+                height: 100%;
+                line-height: 30px;
+                margin-top: 30px;
+
+
+
+                .iconss {
+                    display: flex;
+                    margin-left: -30px;
+
+                    p {
+                        margin-left: 20px;
+                        font-size: 80px;
+                    }
+                }
+
+                p {
+                    font-size: 14px;
+
+                    &:hover {
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .Afooter2 {
+        width: 100%;
+        height: 100px;
+        background-color: #363738;
+
+        .Afooter2_data {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 35px;
+            padding-top: 20px;
+            cursor: pointer;
+            color: #BFC6B4;
+            margin-top: -100px;
+        }
+
+        h6 {
+            padding-left: 50px;
+            padding-top: 40px;
+            font-size: 10px;
+        }
+    }
+
+
+
+}
+
+@media(max-width:414px) {
+    .Afooter {
+        width: 100%;
+        height: 35vh;
+        margin-top: 50px;
+
+        .Afooter_navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            width: 100%;
+            height: 120px;
+            background-color: #EDE734;
+
+
+            h1 {
+                margin-left: 0px;
+                font-size: 15px;
+            }
+
+            button {
+                width: 250px;
+                height: 50px;
+                margin-left: 30px;
+                cursor: pointer;
+                background-color: black;
+                color: #fff;
+                box-shadow: gray 5px 5px;
+                font-size: 16px;
+                margin-top: 5px;
+
+                &:hover {
+                    color: gray;
+                }
+            }
+
+
+        }
+
+        .Afooter_carts {
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            height: 50%;
+
+            .Afooter_cart {
+                width: 200px;
+                height: 100%;
+                line-height: 30px;
+                margin-top: 30px;
+
+                p {
+                    font-size: 14px;
+
+                    &:hover {
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .Afooter2 {
+        width: 100%;
+        height: 100px;
+        margin-top: 450px;
+        background-color: #363738;
+
+        .Afooter2_data {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 35px;
+            padding-top: 20px;
+            cursor: pointer;
+            color: #BFC6B4;
+        }
+
+        h6 {
+            padding-left: 50px;
+            padding-top: 40px;
+            font-size: 10px;
+        }
+    }
+}
+
+@media(max-width:393px) {
+    .Afooter {
+        width: 100%;
+        height: 35vh;
+        margin-top: 50px;
+
+        .Afooter_navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 120px;
+            background-color: #EDE734;
+
+            h1 {
+                margin-left: 0px;
+                font-size: 15px;
+            }
+
+            button {
+                width: 250px;
+                height: 50px;
+                margin-left: 24px;
+                cursor: pointer;
+                background-color: black;
+                color: #fff;
+                box-shadow: gray 5px 5px;
+                font-size: 16px;
+
+                &:hover {
+                    color: gray;
+                }
+            }
+
+
+        }
+
+        .Afooter_carts {
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            height: 50%;
+
+            .Afooter_cart {
+                width: 150px;
+                height: 100%;
+                line-height: 30px;
+                margin-top: 30px;
+
+                p {
+                    font-size: 14px;
+
+                    &:hover {
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .Afooter2 {
+        width: 100%;
+        height: 100px;
+        margin-top: 500px;
+        background-color: #363738;
+
+        .Afooter2_data {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 35px;
+            padding-top: 20px;
+            cursor: pointer;
+            color: #BFC6B4;
+        }
+
+        h6 {
+            padding-left: 50px;
+            padding-top: 40px;
+            font-size: 10px;
+        }
+    }
+}
+
+
+@media(max-width:375px) {
+    .Afooter {
+        width: 100%;
+        height: 35vh;
+        margin-top: 50px;
+
+        .Afooter_navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            width: 100%;
+            height: 120px;
+            background-color: #EDE734;
+
+            h1 {
+                margin-left: 0px;
+                font-size: 15px;
+            }
+
+            button {
+                width: 250px;
+                height: 50px;
+                margin-left: 30px;
+                margin-top: 10px;
+                cursor: pointer;
+                background-color: black;
+                color: #fff;
+                box-shadow: gray 5px 5px;
+                font-size: 16px;
+
+                &:hover {
+                    color: gray;
+                }
+            }
+
+
+        }
+
+        .Afooter_carts {
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            height: 70%;
+
+            .Afooter_cart {
+                width: 150px;
+                height: 100%;
+                line-height: 30px;
+                margin-top: 30px;
+
+                p {
+                    font-size: 14px;
+
+                    &:hover {
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .Afooter2 {
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        padding-top: 100px;
+        background-color: #363738;
+
+        .Afooter2_data {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 35px;
+            padding-top: 20px;
+            cursor: pointer;
+            color: #BFC6B4;
+        }
+
+        h6 {
+            padding-top: 40px;
+            font-size: 10px;
+            padding-left: 0px;
+        }
+    }
+}
